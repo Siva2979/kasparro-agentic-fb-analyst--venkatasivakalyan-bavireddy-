@@ -1,0 +1,10 @@
+paths:
+  dataset: "data/synthetic_fb_ads.csv"
+  logs: "logs"
+  outputs: "reports"
+
+thresholds:
+  low_ctr: 0.007      # 0.7% CTR considered low
+  roas_drop_pct: 0.15 # 15% drop considered significant
+
+random_seed: 42
